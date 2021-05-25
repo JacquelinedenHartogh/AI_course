@@ -12,3 +12,8 @@ In the MinesweeperAI class, complete the implementations of add_knowledge, make_
 
 Run via:
 python3 runner.py (again pygame is needed and can be installed via "pip3 install -r requirements.txt")
+
+NB:
+I completed the exercise as required, but there are functions missing to make the game nice. For instance, when the AI finds the 
+8 mines, it should just say that the game is won. But it doesn't. The player can flag the mines and then the game is over. 
+Otherwise, the game just continues.
