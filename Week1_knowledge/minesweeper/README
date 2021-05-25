@@ -1,0 +1,14 @@
+AI technique used:
+Knowledge base
+
+Background from website:
+The goal of the game is to flag (i.e., identify) each of the mines. In many implementations of the game, including the 
+one in this project, the player can flag a mine by right-clicking on a cell (or two-finger clicking, depending on the computer).
+The goal in this project will be to build an AI that can play Minesweeper. 
+
+Work done:
+In the Sentence class, I wrote the implementations of known_mines, known_safes, mark_mine, and mark_safe
+In the MinesweeperAI class, complete the implementations of add_knowledge, make_safe_move, and make_random_move.
+
+Run via:
+python3 runner.py (again pygame is needed and can be installed via "pip3 install -r requirements.txt")
