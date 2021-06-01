@@ -1,0 +1,16 @@
+AI technique used:
+Probabilities: sampling (monte carlo like set-up) and iterative methods
+
+Background from website:
+When search engines like Google display search results, they do so by placing more “important” and higher-quality pages higher in the search 
+results than less important pages. But how does the search engine know which pages are more important than other pages?
+The PageRank algorithm was created by Google’s co-founders (including Larry Page, for whom the algorithm was named). 
+In PageRank’s algorithm, a website is more important if it is linked to by other important websites, and links from less important websites 
+have their links weighted less. This definition seems a bit circular, but it turns out that there are multiple strategies for calculating these 
+rankings.
+
+Work done:
+In pagerank.py I complete the implementation of transition_model, sample_pagerank, and iterate_pagerank.
+
+Run via:
+python3 pagerank.py corpus0 (or corpus1 or corpus2)
