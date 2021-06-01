@@ -10,7 +10,7 @@ have their links weighted less. This definition seems a bit circular, but it tur
 rankings.
 
 Work done:
-In pagerank.py I complete the implementation of transition_model, sample_pagerank, and iterate_pagerank.
+In pagerank.py I implemented the functions transition_model, sample_pagerank, and iterate_pagerank.
 
 Run via:
 python3 pagerank.py corpus0 (or corpus1 or corpus2)
