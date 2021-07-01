@@ -18,5 +18,5 @@ Work done:
 In shopping.py I implemented the functions: load_data, train_model, and evaluate.
 
 Run via:
-python3 generate.py data/structure0.txt data/words0.txt
+python3 shopping.py shopping.csv
 (Run "pip3 install scikit-learn" to install the scikit-learn package)
